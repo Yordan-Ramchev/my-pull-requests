@@ -73,10 +73,10 @@ useSeoMeta({
           variant="link"
         />
         <UButton
-          :to="userUrl"
+          to="https://www.linkedin.com/in/yramchev/"
           external
           target="_blank"
-          :aria-label="`${user.name}'s GitHub profile`"
+          :aria-label="`${user.name}'s Linkedin profile`"
           icon="i-ph-linkedin-logo-duotone"
           color="gray"
           variant="link"
